@@ -1,0 +1,18 @@
+LICENSE = MIT 
+1.0.0:
+pierwsza wersja (zrobione)
+1.0.1: 
+perki i więcej ulepszeń (zrobione)
+1.0.2:
+planowane jest zrobienie dużej ilości ulepszeń i przygotować się do 1.0.3
+
+
+
+2k26/2k27:
+1.0.3:
+planowane jest dodanie ulepszeń i 2 perki i zmienienie przycisku z napisu "kaucja" na zdjecie loga kaucji
+
+więcej planowanych na 2k27 będzie dostępny w 2k26 w grudniu
+
+Autor
+Michał Demiańczyk 
