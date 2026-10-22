@@ -3,7 +3,7 @@ LICENSE = MIT
 pierwsza wersja (zrobione)
 1.0.1: 
 perki i więcej ulepszeń (zrobione)
-1.0.2:
+1.0.2: (zrobione)
 planowane jest zrobienie dużej ilości ulepszeń i przygotować się do 1.0.3
 
 
