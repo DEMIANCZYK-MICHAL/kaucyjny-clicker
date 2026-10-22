@@ -58,8 +58,52 @@ def upgrade():
         if hajs >= 1000:
             hajs -= 1000
             iloscdodawania = 3.5
-            ulepsz.config(text="maksymalne ulepszenie",state="disabled")
+            ulepsz.config(text="Ulepsz wartosc butelki (1600zl)")
             info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: 3 szklane I JEDNA NORMALNA")
+            poziom = 6
+    elif poziom == 6:
+        if hajs >= 1600:
+            hajs -= 1600
+            ulepsz.config(text="Ulepsz Wartosc butelki (2000zl)")
+            iloscdodawania = 4.5
+            info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: ktos tu oscamowal butelkomat!! \n 4.5zl za BUTELKE?!")
+            poziom = 7
+    elif poziom == 7:
+        if hajs >= 2000:
+            hajs -= 2000
+            ulepsz.config(text="Ulepsz wartosc butelki (2300zl)")
+            iloscdodawania = 5
+            info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: kierowniku poratuj 5zl hehe ")
+            poziom = 8
+    elif poziom == 8:
+        if hajs >= 2300:
+            hajs -= 2300
+            ulepsz.config(text="Ulepsz wartosc butelki (2800zl)")
+            iloscdodawania = 6.5
+            info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: kaucja kaucja kaucja kauuuuuuuuucjaaaaaaaa ")
+            poziom = 9
+    elif poziom == 9:
+        if hajs >= 2800:
+            hajs -= 2800
+            ulepsz.config(text="Ulepsz wartosc butelki (3400zl)")
+            iloscdodawania = 8.5
+            info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: prawie dyszka za butelke")
+            poziom = 10
+    elif poziom == 10:
+        if hajs >= 3400:
+            hajs -= 3400
+            ulepsz.config(text="Ulepsz wartosc butelki (5000zl!!!)")
+            iloscdodawania = 9.5
+            info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: co robi 9zl w portfelu? ledwo dycha!")
+            poziom = 11
+    elif poziom == 11:
+        if hajs >= 5000:
+            hajs -= 5000
+            iloscdodawania
+            
+        
+            
+            
 
 
 
