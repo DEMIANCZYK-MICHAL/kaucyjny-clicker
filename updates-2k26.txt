@@ -8,7 +8,8 @@ planowane jest zrobienie dużej ilości ulepszeń i przygotować się do 1.0.3
 
 
 1.0.3: (jednak w 2k26 będzie ten update)
-planowane jest dodanie ulepszeń i 2 perki i zmienienie przycisku z napisu "kaucja" na zdjecie loga kaucji
+planowane jest dodanie ulepszeń i 2 perki i zmienienie przycisku z napisu "kaucja" na zdjecie loga kaucji i wiele więcej
+to będzie poki co największy update 
 
 więcej planowanych na 2k27 będzie dostępny w 2k26 w grudniu
 
