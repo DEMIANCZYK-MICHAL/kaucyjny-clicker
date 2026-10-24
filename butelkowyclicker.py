@@ -7,7 +7,7 @@ iloscdodawania = 0.5
 poziom = 0
 root = Tk.Tk()
 root.geometry("300x300")
-root.title("Butelkowy CLICKER")
+root.title("kaucyjny CLICKER")
 img = Image.open("kaucja.jpg")
 img = img.resize((100,100))
 foto = ImageTk.PhotoImage(img)
@@ -130,16 +130,26 @@ def kliknieto():
     global info
     randomik = random.randint(1,500)
     randomik2 = random.randint(1,500000)
-    if hajs == 10000:
+    randomik3 = random.randint(1,1000000)
+    randomik4 = random.randint(1,3000000)
+    if hajs == 100000:
         kliknij.config(state="disabled")
         ulepsz.config(state="disabled")
         info.config(text="WYGRALES!!!!!!!!! CHCESZ WERSJE BEZ KONCA??????? WEJDZ NA GITHUBA MICHALDEMIANCZYK (TAM GDZIE POBRALES TEN CLICKER) \n I ZNAJDZ REPO POD NAZWA: KAUCYJNY CLICKER NO END \n I POBIERZ NAJNOWSZE WYDANIE!")
     if randomik == 250:
         hajs += 10.0
         info.config(text="BRAWO OTRZYMALES PERKE ZDOBYWASZ ZA TA BUTELKE 10ZL!!! ")
-    if randomik2 == 450000:
+    elif randomik2 == 450000:
         hajs += 1000.0
         info.config(text="brawo zdobyles perke 1000zl!!!! ")
+    elif randomik3 == 523000:
+        hajs += 4000.0
+        info.config(text="BRAWO OTRZYMALES PERKE!!!!! \n PONAD 4K ZLOTYCH ZA BUTELKE NIE SAMOWIETE!")
+        text.config(text=f"{hajs} zl")
+    elif randomik4 == 222000:
+        hajs += 9000.0
+        info.config(text="BRAWO OTRZYMALES PERKE!!!!! \n PONAD 9K ZLOTYCH ZA BUTELKE NIE SAMOWITE!")
+        text.config(text=f"{hajs} zl")
     else:
     
         hajs += iloscdodawania

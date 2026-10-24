@@ -5,4 +5,8 @@ to musi ktoś z was zrobic full gre (10k zł zdobyc) bez ani jednego ulepszenia 
 nagrania zgloszeniowe zapraszam wysylac na discorda: _inposcik_
 projekt na licenci MIT [LICENCJA MIT](https://mit-license.org/)
 pls dajcie star 
+<<<<<<< Updated upstream
 ps najnowsza wersja to 1.0.3 na licencji mit 
+=======
+ps najnowsza wersja to 1.0.3 beta! na licencji mit 
+>>>>>>> Stashed changes

@@ -1,2 +1,6 @@
+<<<<<<< Updated upstream
 version = 1.0.3
+=======
+version = 1.0.3 beta! 
+>>>>>>> Stashed changes
 license = MIT LICENSE
