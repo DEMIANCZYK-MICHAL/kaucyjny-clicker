@@ -1,11 +1,16 @@
 import tkinter as Tk
 import random 
+from PIL import Image, ImageTk
+
 hajs = 0
 iloscdodawania = 0.5
 poziom = 0
 root = Tk.Tk()
 root.geometry("300x300")
 root.title("Butelkowy CLICKER")
+img = Image.open("kaucja.jpg")
+img = img.resize((100,100))
+foto = ImageTk.PhotoImage(img)
 
 
 def upgrade():
@@ -99,7 +104,9 @@ def upgrade():
     elif poziom == 11:
         if hajs >= 5000:
             hajs -= 5000
-            iloscdodawania
+            iloscdodawania = 10
+            info.config(text=f"Ulepszono teraz zbierasz {iloscdodawania} zl \n za butelke nazwa ulepszenia: dycha!")
+            ulepsz.config(text="Max ulepszenie", state="disabled")
             
         
             
@@ -136,10 +143,10 @@ def kliknieto():
     else:
     
         hajs += iloscdodawania
-        print(hajs,"zl")
+        
         text.config(text=f"{hajs} zl")
 
-kliknij = Tk.Button(root,text="kaucja", command=kliknieto,activebackground="blue")
+kliknij = Tk.Button(root,image=foto, command=kliknieto,activebackground="blue")
 kliknij.pack(pady=40,padx=0)
 text = Tk.Label(root,text=f"{hajs} zl")
 text.pack(pady=0,padx=0)
